@@ -1,3 +1,5 @@
+// This file demonstrates hoisting
+
 b();
 console.log(a);
 
