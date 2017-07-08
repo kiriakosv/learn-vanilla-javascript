@@ -19,7 +19,7 @@ console.log(greeting);
 
 3;
 
-(function(name) {
-  var greeting = "Hello ";
-  console.log(greeting + name);
-}("John")); // IIFE
+(function (name) {
+  var greeting = 'Hello '
+  console.log(greeting + name)
+}('John')) // IIFE
