@@ -1,8 +1,8 @@
-function greet(whattosay) {
-  return function(name) {
-    console.log(whattosay + " " + name);
-  };
+function greet (whattosay) {
+  return function (name) {
+    console.log(whattosay + ' ' + name)
+  }
 }
 
-var sayHi = greet("Hi");
-sayHi("Tony");
+var sayHi = greet('Hi')
+sayHi('Tony')

@@ -1,9 +1,9 @@
-var english = { 
+var english = {
   greetings: {
-    basic: "Hello!"
+    basic: 'Hello!'
   }
-};
+}
 
-var spanish = {};
+var spanish = {}
 
-console.log(english.greetings.basic);
+console.log(english.greetings.basic)

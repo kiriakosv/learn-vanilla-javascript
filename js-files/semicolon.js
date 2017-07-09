@@ -1,8 +1,8 @@
-function getPerson() {
+function getPerson () {
   return
   {
-    firstname: "Tony"
+    firstname: 'Tony'
   }
 }
 
-console.log(getPerson());
+console.log(getPerson())

@@ -1,43 +1,43 @@
 // by value (primitives)
-var a = 3;
-var b;
+var a = 3
+var b
 
-b = a;
-a = 2;
+b = a
+a = 2
 
-console.log(a);
-console.log(b);
+console.log(a)
+console.log(b)
 
 // by reference (all objects (including functions))
-var c = { greeting: "hi" };
-var d;
+var c = { greeting: 'hi' }
+var d
 
-d = c;
-c.greeting = "hello"  // mutate
+d = c
+c.greeting = 'hello'  // mutate
 
-console.log(c);
-console.log(d);
+console.log(c)
+console.log(d)
 
 // by reference (even as parameters)
-function changeGreeting(obj) {
-  obj.greeting = "Hola"; // mutate
+function changeGreeting (obj) {
+  obj.greeting = 'Hola' // mutate
 }
 
-changeGreeting(d);
-console.log(c);
-console.log(d);
+changeGreeting(d)
+console.log(c)
+console.log(d)
 
 // equals operator sets up new memory space (new address)
-c = { greeting: 'howdy' };
-console.log(c);
-console.log(d);
+c = { greeting: 'howdy' }
+console.log(c)
+console.log(d)
 
 // primitives as function parameters
-k = 4;
-function test(k) {
-  k = 5;
-  console.log(k);
+var k = 4
+function test (k) {
+  k = 5
+  console.log(k)
 }
 
-test(k);
-console.log(k);
+test(k)
+console.log(k)

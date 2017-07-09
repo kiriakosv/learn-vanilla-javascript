@@ -1,8 +1,10 @@
-var firstname, lastname, language;
+var firstname
+var lastname
+var language
 
 var person = {
-  firstname: "John",
-  lastname: "Doe"
+  firstname: 'John',
+  lastname: 'Doe'
 }
 
-console.log(person);
+console.log(person)

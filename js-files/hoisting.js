@@ -1,9 +1,9 @@
 // This file demonstrates hoisting
-b();
-console.log(a);
+b()
+console.log(a)
 
-var a = "Hello World!";
+var a = 'Hello World!';
 
-function b() {
-  console.log('Called b!');
+function b () {
+  console.log('Called b!')
 }

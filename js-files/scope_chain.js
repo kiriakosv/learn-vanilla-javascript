@@ -1,12 +1,12 @@
 // This file demonstrates variable scopes
-function b() {
-  console.log(myVar);
+function b () {
+  console.log(myVar)
 }
 
-function a() {
-  var myVar = 2;
-  b();
+function a () {
+  var myVar = 2
+  b()
 }
 
-var myVar = 1;
-a();
+var myVar = 1
+a()

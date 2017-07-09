@@ -1,17 +1,17 @@
-function makeGreeting(language) {
-  return function(firstname, lastname) {
-    if (language === "en") {
-      console.log("Hello " + firstname + " " + lastname);
+function makeGreeting (language) {
+  return function (firstname, lastname) {
+    if (language === 'en') {
+      console.log('Hello ' + firstname + ' ' + lastname)
     }
 
-    if (language === "es") {
-      console.log("Hola " + firstname + " " + lastname);
+    if (language === 'es') {
+      console.log('Hola ' + firstname + ' ' + lastname)
     }
   }
 }
 
-greetEnglish = makeGreeting("en");
-greetSpanish = makeGreeting("es");
+var greetEnglish = makeGreeting('en')
+var greetSpanish = makeGreeting('es')
 
-greetEnglish("John", "Doe");
-greetSpanish("John", "Doe");
+greetEnglish('John', 'Doe')
+greetSpanish('John', 'Doe')

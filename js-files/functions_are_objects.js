@@ -1,5 +1,5 @@
-function greet() {
-  console.log('hi');
+function greet () {
+  console.log('hi')
 }
 
-greet.language = 'english';
+greet.language = 'english'

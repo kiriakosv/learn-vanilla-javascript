@@ -1,22 +1,22 @@
-greet();
+greet()
 
 // Function Statement
-function greet() {
-  console.log("Hi");
+function greet () {
+  console.log('Hi')
 }
 
 // Function Expression
-var anonymousGreet = function() {
-  console.log("Hi");
+var anonymousGreet = function () {
+  console.log('Hi')
 }
 
-anonymousGreet();
+anonymousGreet()
 
-function log(a) {
-  console.log(a);
-  a();
+function log (a) {
+  console.log(a)
+  a()
 }
 
-log(function() {
-  console.log("hi");
-});
+log(function () {
+  console.log('hi')
+})

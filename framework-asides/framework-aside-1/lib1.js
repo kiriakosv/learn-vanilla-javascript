@@ -1,1 +1,1 @@
-var libraryName = "Lib 1";
+var libraryName = 'Lib 1';
