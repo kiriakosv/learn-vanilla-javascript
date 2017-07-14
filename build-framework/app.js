@@ -1,4 +1,5 @@
-var g = G$('John', 'Doe', 'es');
-g.greet().setLang('es').greet(true);
-// g.greet().setLang('fr').greet(true); //This should throw an error
-g.fillSelector('#greeting', true);
+$('#login').click(function(){
+  var g = G$('John', 'Doe', $('#lang').val());
+  $('#logindiv').hide();
+  g.HTMLGreeting($('#greeting'), true).log();
+})
