@@ -69,6 +69,27 @@
       this.language = language;
       this.validate();
       return this;
+    },
+
+    HTMLGreeting: function(selector, formal) {
+      if (!$) {
+        throw 'jQuery not loaded';
+      }
+
+      if (!selector) {
+        throw 'Missing jQuery selector';
+      }
+
+      var msg;
+      if (formal) {
+        msg = this.formalGreeting();
+      } else {
+        msg = this.greeting();
+      }
+
+      $(selector).text(msg);
+
+      return this;
     }
   };
 
@@ -83,6 +104,3 @@
 
   global.Greeter = global.G$ = Greetr;
 }(window, jQuery));
-
-var g = G$('John', 'Doe');
-console.log(g);
